@@ -1,1 +1,12 @@
-/*  your css code here. If applicable */
+#line {
+    width: 200px;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* This ensures the line starts centered before rotation is applied */
+    transform: translate(-50%, -50%) rotate(0deg);
+    /* Ensure the rotation happens around the center point */
+    transform-origin: center;
+}
